@@ -1,7 +1,7 @@
 library(RODBC)
 library(mgcv)
 
-AFSC=odbcConnect("AFSC","sbarb","sbarb$1011")
+AFSC=odbcConnect("AFSC","#####","######")
 
 ## Survey Age Data
 
