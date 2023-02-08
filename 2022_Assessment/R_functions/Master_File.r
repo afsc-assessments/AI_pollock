@@ -3,8 +3,8 @@ library(mgcv)
 setwd("C:/WORKING_FOLDER/2022 Stock Assessments/AI_pollock/R_functions")
 
 
-  AFSC=odbcConnect("AFSC","sbarb","BluFsh$$7890",believeNRows=FALSE)
-  CHINA=odbcConnect("AKFIN","sbarbeaux","$tockmen12",believeNRows=FALSE)
+  AFSC=odbcConnect("AFSC","#####","#####",believeNRows=FALSE)
+  CHINA=odbcConnect("AKFIN","#####","#####",believeNRows=FALSE)
 
   source("get_Sage.r")
   source("get_AIbiom.r")
