@@ -223,10 +223,10 @@ ss$SS[ss$YEAR>=2006]<-100
 }
 
 
-username="sbarb"
-password="BluFsh$$7890"
+username="######"
+password="####"
 AFSC=odbcConnect("AFSC",username,password,believeNRows=FALSE)
-CHINA=odbcConnect("AKFIN","sbarbeaux","$tockmen12",believeNRows=FALSE)
+CHINA=odbcConnect("AKFIN","####","####",believeNRows=FALSE)
 
 SOURCES<- c(
  "AGE_LENGTH.r",
